@@ -48,7 +48,17 @@ body {
 
 /* ----------------- */
 
-.wrapper {}
+.wrapper {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
 
 
 /* ----------------- */
+
+[class*="__container"] {
+    min-width: 1057px;
+    margin: 0px auto;
+}
