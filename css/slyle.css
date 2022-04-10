@@ -39,7 +39,11 @@ body {
     line-height: 1;
 }
 
-body {}
+body {
+    font-family: Rubik;
+    font-style: 12px;
+    color: #616161;
+}
 
 
 /* ----------------- */
