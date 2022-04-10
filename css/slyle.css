@@ -58,6 +58,10 @@ body {
 
 /* ----------------- */
 
+main {
+    flex: 1 1 auto;
+}
+
 [class*="__container"] {
     min-width: 1057px;
     margin: 0px auto;
