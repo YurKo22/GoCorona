@@ -63,6 +63,38 @@ main {
 }
 
 [class*="__container"] {
-    min-width: 1057px;
+    max-width: 1057px;
     margin: 0px auto;
 }
+
+.header {}
+
+.header__container {
+    display: flex;
+}
+
+.header__logo {}
+
+.header__menu {
+    flex: 1 1 auto;
+}
+
+.header__button {
+    flex: 0 0 252px;
+}
+
+.menu {}
+
+.menu__list {}
+
+.menu__item {}
+
+.menu__link {}
+
+.button {}
+
+.button-blue {}
+
+.main {}
+
+.footer {}
