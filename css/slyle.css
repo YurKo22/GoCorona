@@ -167,11 +167,11 @@ main {
       padding: 90px 15px 30px 15px;
       transition: left 0.3s ease 0s;
    }
-   .header:target .menu__body{
+   .header:target .menu__body {
       left: 0;
    }
-   .header:target .menu__body::before{
-      content: "";
+   .header:target .menu__body::before {
+      content: '';
       position: fixed;
       top: 0;
       left: 0;
@@ -249,7 +249,7 @@ button:hover {
    }
    .icon-menu::before,
    .icon-menu::after {
-      content: "";
+      content: '';
       background-color: #000;
       height: 2px;
    }
@@ -257,7 +257,7 @@ button:hover {
       height: 2px;
       background-color: #000000;
    }
-   .close-icon-menu{
+   .close-icon-menu {
       flex: 0 0 30px;
       height: 30px;
       position: relative;
@@ -265,7 +265,7 @@ button:hover {
    }
    .close-icon-menu::before,
    .close-icon-menu::after {
-      content: "";
+      content: '';
       position: absolute;
       top: 50%;
       left: 0;
@@ -279,44 +279,86 @@ button:hover {
    .close-icon-menu::after {
       transform: rotate(-45deg);
    }
-   .header:target .icon-menu{
+   .header:target .icon-menu {
       display: none;
    }
-   .header:target .close-icon-menu{
+   .header:target .close-icon-menu {
       display: flex;
    }
 }
 /* ======================================================================== */
-.get-started {
-   background-color: #E5E5E5;;
-}
-.get-started__container {
-}
-.get-started__content {
-}
-.get-started__block-text {
-}
 .block-text {
 }
 .block-text__title {
+   font-weight: 700;
+   font-size: 44px;
+   line-height: 126%;
+   color: #000000;
+}
+.block-text__title:not(:last-child) {
+   margin: 0px 0px 12px 0px;
+}
+.block-text__title span {
+   color: #ec5863;
+}
+.block-text__title_blue span {
+   color: #4285f4;
 }
 .block-text__text {
+   line-height: 138.5%;
 }
-.block-text__button {
+.block-text__text:not(:last-child) {
+   margin: 0px 0px 24px 0px;
 }
-.button {
+
+/* ========================================================================= */
+.get-started {
+   background-color: #fafbfd;
+   padding: 150px 0px 50px 0px;
+}
+.get-started__container {
+   display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+}
+.get-started__content {
+   flex: 0 1 48%;
+   padding: 0px 0px 0px 20px;
+}
+.get-started__block-text {
+   max-width: 410px;
 }
 .get-started__video {
-}
-.video-get-started {
-}
-.video-get-started__icon {
-}
-.get-started__body {
-}
-.get-started__title {
-}
-.get-started__text {
+   flex: 1 1 100%;
+   padding: 60px 0px 0px 20px;
 }
 .get-started__image {
+   flex: 0 1 52%;
+}
+.get-started__image img {
+   max-width: 100%;
+}
+.video-get-started {
+   display: inline-flex;
+   align-items: center;
+}
+.video-get-started__icon {
+   flex: 0 0 44px;
+}
+.get-started__body {
+   padding: 0px 0px 0px 12px;
+}
+.get-started__title {
+   font-size: 13px;
+   line-height: 126%;
+   letter-spacing: 0.08em;
+   color: #b0b0b0;
+   padding: 0px 0px 5px 0px;
+}
+.get-started__text {
+   text-transform: uppercase;
+   font-size: 9px;
+   line-height: 126%;
+   letter-spacing: 0.165em;
+   columns: #000;
 }
