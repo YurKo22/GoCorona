@@ -260,8 +260,8 @@ button:hover {
    .close-icon-menu{
       flex: 0 0 30px;
       height: 30px;
-      position: relative
-      ;
+      position: relative;
+      margin: 0 0 0 20px;
    }
    .close-icon-menu::before,
    .close-icon-menu::after {
@@ -285,4 +285,38 @@ button:hover {
    .header:target .close-icon-menu{
       display: flex;
    }
+}
+/* ======================================================================== */
+.get-started {
+   background-color: #E5E5E5;;
+}
+.get-started__container {
+}
+.get-started__content {
+}
+.get-started__block-text {
+}
+.block-text {
+}
+.block-text__title {
+}
+.block-text__text {
+}
+.block-text__button {
+}
+.button {
+}
+.get-started__video {
+}
+.video-get-started {
+}
+.video-get-started__icon {
+}
+.get-started__body {
+}
+.get-started__title {
+}
+.get-started__text {
+}
+.get-started__image {
 }
