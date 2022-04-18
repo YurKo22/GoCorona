@@ -497,18 +497,20 @@ button:hover {
     box-shadow: 2px 4px 32px rgba(0, 0, 0, 0.12);
     border-radius: 16px;
     position: relative;
+    width: 61.5%;
 }
 
 .media-stay-safe__image img {
     position: relative;
     z-index: 5;
+    max-width: 100%;
 }
 
 .media-stay-safe__image::after {
-    content: '';
+    content: "";
     position: absolute;
     bottom: -12px;
-    left: 12px;
+    left: 42px;
     z-index: 2;
     width: 206px;
     height: 27px;
@@ -539,4 +541,28 @@ button:hover {
 .media-stay-safe__item3 {
     bottom: 107px;
     right: 34px;
+}
+
+@media (min-width: 991.98px) {
+    .stay-safe {
+        padding: 30px 0;
+    }
+    .stay-safe__media {
+        padding: 0 0 0 47px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .stay-safe__container {
+        flex-direction: column-reverse;
+    }
+    .stay-safe__content {
+        margin: 0 0 30px 0;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .media-stay-safe__image {
+        width: 290px;
+    }
 }
