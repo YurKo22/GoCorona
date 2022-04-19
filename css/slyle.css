@@ -541,7 +541,7 @@ button:hover {
       width: 290px;
    }
 }
-/* =============================================================================================================== */
+/* ================================================================= */
 
 .experts {
    background-color: #fafbfd;
@@ -588,6 +588,22 @@ button:hover {
    object-fit: cover;
 }
 
+@media (max-width: 767.98px) {
+   .experts{
+      padding: 80px 0 30px 0;
+   }
+   .experts__body {
+      align-items: stretch;
+      flex-direction: column;
+   }
+   .experts__video {
+      padding: 0 0 58% 0;
+   }
+   .experts__content{
+      padding: 0;
+      margin: 0px 0px 30px 0px;
+   }
+}
 .statistics-experts__body {
    background-color: #fff;
    box-shadow: 0px 2px 24px rgba(88, 126, 236, 0.15);
@@ -661,4 +677,20 @@ button:hover {
    letter-spacing: 0.37em;
    text-transform: uppercase;
    color: #000000;
+}
+@media (max-width: 767.98px){
+   .statistics-experts__body{
+      margin: 0px 0px 50px 0px;
+   }
+   .body-statistics-experts {
+   padding: 25px;
+}
+}
+@media (max-width: 479.98px){
+   .statistics-experts__body{
+      flex-direction: column;
+   }
+   .body-statistics-experts__item:not(:last-child){
+      margin: 0px 0px 15px 0px;
+   }
 }
